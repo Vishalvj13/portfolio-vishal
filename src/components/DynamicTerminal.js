@@ -4,7 +4,7 @@ const terminalLines = [
     { command: 'whoami', output: 'Vishal Junghare' },
     { command: 'echo "Write clean code, test often, refactor always."', output: 'Write clean code, test often, refactor always.' },
     { command: 'pwd', output: '/home/developer/life' },
-    { command: 'ls', output: 'SpringBoot  React  Docker  AWS  MySQL' },
+    { command: 'ls', output: 'Java  SpringBoot  React  MySQL  AWS' },
     { command: 'fortune', output: '“Simplicity is the soul of efficiency.”' },
 ];
 
@@ -69,7 +69,6 @@ const DynamicTerminal = () => {
                     startTyping();
                 });
             } else {
-                // ✅ Looping after short delay
                 setTimeout(() => {
                     lineIndex.current = 0;
                     setDisplayedLines([]);

@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/Education.css';
 import { GraduationCap } from 'lucide-react';
+import {PiStudent} from "react-icons/pi";
+import {FaSchool, FaUserGraduate} from "react-icons/fa";
+import {GiGraduateCap} from "react-icons/gi";
 
 const educationData = [
     {
@@ -9,6 +12,7 @@ const educationData = [
         institution: 'SunBeam Institute of Information Technology, Pune-Karad',
         year: '2021 - 2022',
         grade: 'Percentage: 74%',
+        icon: <FaUserGraduate style={{ color: '#4A90E2', fontSize: '2rem' }} />,
     },
     {
         degree: 'Graduation',
@@ -16,6 +20,7 @@ const educationData = [
         institution: 'St. Vincent Pallotti College of Engineering & Technology, Nagpur',
         year: '2015 - 2019',
         grade: 'Percentage: 77.7%',
+        icon: <GiGraduateCap style={{ color: '#3F72AF', fontSize: '2rem' }} />,
     },
     {
         degree: 'HSC',
@@ -23,6 +28,7 @@ const educationData = [
         institution: 'Maharashtra State Board of Secondary and Higher Secondary Education',
         year: '2014 - 2015',
         grade: 'Percentage: 76.31%',
+        icon: <FaSchool style={{ color: '#112D4E', fontSize: '2rem' }} />,
     },
     {
         degree: 'SSC',
@@ -30,6 +36,7 @@ const educationData = [
         institution: 'Maharashtra State Board of Secondary and Higher Secondary Education',
         year: '2013 - 2014',
         grade: 'Percentage: 84.6%',
+        icon: <PiStudent style={{ color: '#3F3D56', fontSize: '2rem' }} />,
     },
 ];
 
@@ -47,6 +54,7 @@ const Education = () => {
                         <div className="edu-flip-card" key={index}>
                             <div className="edu-flip-inner">
                                 <div className="edu-front">
+                                    <div className="edu-icon">{edu.icon}</div>
                                     <h3>{edu.degree}</h3>
                                 </div>
                                 <div className="edu-back">
@@ -61,8 +69,6 @@ const Education = () => {
                 </div>
             </div>
         </section>
-
-
     );
 };
 

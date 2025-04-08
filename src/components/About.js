@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import '../styles/About.css';
 import { motion } from 'framer-motion';
 import DynamicTerminal from "./DynamicTerminal";
 import { User } from "lucide-react";
-
 
 const About = () => {
     return (
@@ -31,9 +30,9 @@ const About = () => {
                         <br /><br />
                         <strong>Outside work</strong>, I'm a <strong>Cricket Enthusiast 🏏</strong> who finds joy in smashing sixes, a <strong>Wanderluster 🌍</strong> always chasing new destinations, and a <strong>Foodie 🍕</strong> on a mission to discover the next great bite.
                         <br />
-                        Add in a love for <strong>spontaneous road trips 🛣️</strong>, <strong>binge-worthy TV shows 📺</strong>, and the occasional <strong>chai break ☕️</strong> — and you've got the perfect mix of <strong>code</strong> and <strong>chaos</strong>.
+                        Love <strong>spontaneous road trips 🛣️</strong>, <strong>binge-worthy TV shows 📺</strong>, and the occasional <strong>chai break ☕️</strong>  and you've got the perfect mix of <strong>code</strong> and <strong>chaos</strong>.
                         <br />
-                        <strong>Fun fact:</strong> I once fixed a bug at 2 AM and danced like I won the World Cup 🕺😄 also, I have more tabs open than secrets 🤫.
+                        <strong>Fun fact:</strong>I have more tabs open than secrets 🤫.
                     </p>
 
                     {/* My Coding Mantra Terminal Box */}
