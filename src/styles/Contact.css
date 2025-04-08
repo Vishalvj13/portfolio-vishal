@@ -3,7 +3,6 @@
     background: #f3f6fd;
     text-align: center;
     min-height: 100vh;
-
 }
 
 .contact-title {
@@ -16,6 +15,7 @@
 .contact-content {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .contact-message {
@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap; /* allow wrapping on small screens */
 }
 
 .contact-icon {
@@ -59,7 +60,17 @@
     color: #2563eb;
 }
 
-/* Responsive */
+.title-underline {
+    width: 500px;
+    max-width: 90%; /* responsive width */
+    height: 4px;
+    background: linear-gradient(90deg, #6366f1, #3b82f6);
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Tablet and smaller */
 @media (max-width: 768px) {
     .contact-title {
         font-size: 2.25rem;
@@ -67,6 +78,7 @@
 
     .contact-message {
         font-size: 1rem;
+        padding: 0 1rem;
     }
 
     .contact-icon svg {
@@ -74,12 +86,27 @@
         height: 24px;
     }
 }
-.title-underline {
-    width: 500px;
-    height: 4px;
-    background: linear-gradient(90deg, #6366f1, #3b82f6); /* Indigo to Blue */
-    margin: 0 auto;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-}
 
+/* Phones ≤ 480px */
+@media (max-width: 480px) {
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-message {
+        font-size: 0.95rem;
+    }
+
+    .contact-icon {
+        padding: 0.75rem;
+    }
+
+    .contact-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .contact-icons {
+        gap: 1.25rem;
+    }
+}

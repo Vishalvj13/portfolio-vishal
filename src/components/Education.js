@@ -8,11 +8,11 @@ import {GiGraduateCap} from "react-icons/gi";
 const educationData = [
     {
         degree: 'PG-Diploma',
-        fullDegree: 'Post Graduation Diploma in Advanced Computing (PG-DAC), Information Technology',
+        fullDegree: 'Post Graduation Diploma in Advanced Computing (PG-DAC), IT',
         institution: 'SunBeam Institute of Information Technology, Pune-Karad',
         year: '2021 - 2022',
         grade: 'Percentage: 74%',
-        icon: <FaUserGraduate style={{ color: '#4A90E2', fontSize: '2rem' }} />,
+        icon: <FaUserGraduate style={{ color: '#4A90E2', fontSize: '4rem' }} />,
     },
     {
         degree: 'Graduation',
@@ -20,7 +20,7 @@ const educationData = [
         institution: 'St. Vincent Pallotti College of Engineering & Technology, Nagpur',
         year: '2015 - 2019',
         grade: 'Percentage: 77.7%',
-        icon: <GiGraduateCap style={{ color: '#3F72AF', fontSize: '2rem' }} />,
+        icon: <GiGraduateCap style={{ color: '#3F72AF', fontSize: '4rem' }} />,
     },
     {
         degree: 'HSC',
@@ -28,7 +28,7 @@ const educationData = [
         institution: 'Maharashtra State Board of Secondary and Higher Secondary Education',
         year: '2014 - 2015',
         grade: 'Percentage: 76.31%',
-        icon: <FaSchool style={{ color: '#112D4E', fontSize: '2rem' }} />,
+        icon: <FaSchool style={{ color: '#112D4E', fontSize: '4rem' }} />,
     },
     {
         degree: 'SSC',
@@ -36,7 +36,7 @@ const educationData = [
         institution: 'Maharashtra State Board of Secondary and Higher Secondary Education',
         year: '2013 - 2014',
         grade: 'Percentage: 84.6%',
-        icon: <PiStudent style={{ color: '#3F3D56', fontSize: '2rem' }} />,
+        icon: <PiStudent style={{ color: '#3F3D56', fontSize: '4rem' }} />,
     },
 ];
 

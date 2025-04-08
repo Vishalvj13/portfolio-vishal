@@ -19,6 +19,14 @@
     margin: 0 auto;
 }
 
+.about-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .about-content {
     display: flex;
     flex-direction: column;
@@ -48,19 +56,14 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-
-    /* ✅ Prevent layout shift */
-    height: 220px;             /* ✅ Fix height */
+    height: 220px;
     min-height: 220px;
-    max-height: 220px;         /* optional for flexibility */
-    overflow-y: auto;          /* ✅ scroll instead of push */
-
-    /* ✅ Handle long text nicely */
+    max-height: 220px;
+    overflow-y: auto;
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-
 
 .terminal-box::-webkit-scrollbar {
     width: 6px;
@@ -71,7 +74,6 @@
     border-radius: 3px;
 }
 
-/* Terminal prompt and response styling */
 .terminal-line {
     color: #00ffff;
     margin-top: 0.70rem;
@@ -87,12 +89,10 @@
     word-wrap: break-word;
 }
 
-
 .prompt {
     color: #00ffff;
 }
 
-/* Ensures long lines wrap */
 .terminal-box code {
     display: block;
     white-space: normal;
@@ -101,7 +101,7 @@
     line-height: 1.6;
 }
 
-/* Optional animation */
+/* Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -113,25 +113,7 @@
     }
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    .about-text {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    .code-block {
-        font-size: 0.9rem;
-    }
-}
-
-/* Retained styles */
+/* About Image */
 .about-image {
     flex: 1;
     display: flex;
@@ -189,10 +171,51 @@
         background-color: transparent;
     }
 }
-.about-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    width: 100%;
-    box-sizing: border-box;
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .code-block {
+        font-size: 0.85rem;
+    }
+
+    .terminal-box {
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-title {
+        font-size: 1.75rem;
+    }
+
+    .about-text {
+        font-size: 0.95rem;
+    }
+
+    .terminal-box {
+        font-size: 0.85rem;
+        padding: 1rem;
+    }
+
+    .code-block {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
 }

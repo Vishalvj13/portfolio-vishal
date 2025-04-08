@@ -12,7 +12,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 function App() {
     return (
         <div className="min-h-screen font-sans bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100 text-black">
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
                 <Home />
                 <About/>
                 <Experience/>
