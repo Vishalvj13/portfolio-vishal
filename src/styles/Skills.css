@@ -9,9 +9,8 @@
     margin: 0 auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 21rem;
-    padding-right: 21rem;
-    /* 🔥 remove horizontal padding */
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -42,48 +41,47 @@
 
 .skill-category {
     margin-bottom: 3rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1.5rem 1rem;
     background-color: #e8edf7;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-
 .skill-category-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-style: italic;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
     color: #111827;
     border-bottom: 2px solid #a0aec0;
     display: inline-block;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
 }
 
 .skill-icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 2.5rem;
+    justify-content: center; /* ✅ Center items horizontally */
+    gap: 2rem;
+    margin-top: 1rem;
 }
 
 .skill-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
-    padding: 1rem 1.25rem;
-    border-radius: 2rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    transform-origin: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    max-width: 140px;
+    transition: transform 0.3s ease;
+    flex: 0 0 auto;
 }
 
 .skill-item:hover {
-    transform: scale(1.08) rotate(-1deg);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
 }
 
 .skill-icon {
@@ -103,15 +101,17 @@
     color: #374151;
     font-family: 'Inter', sans-serif;
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 .skill-item:hover .skill-label {
     color: #1f2937;
 }
+
 .title-underline {
     width: 500px;
     height: 4px;
-    background: linear-gradient(90deg, #6366f1, #3b82f6); /* Indigo to Blue */
+    background: linear-gradient(90deg, #6366f1, #3b82f6);
     margin: 0 auto;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;

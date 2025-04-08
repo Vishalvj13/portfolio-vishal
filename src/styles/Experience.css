@@ -60,20 +60,23 @@
 
 .timeline-icon {
     background-color: #fff;
-    border: 2px solid #e0e0e0;
+    border: 1px solid #e0e0e0;
     border-radius: 50%;
     padding: 8px;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 10;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .timeline-icon img {
-    max-width: 50px;
     height: auto;
+    max-width: 120%;
+    max-height: 70%;
+    object-fit: contain;
 }
 
 .timeline-right {
