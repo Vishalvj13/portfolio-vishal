@@ -27,6 +27,14 @@ const Home = () => {
             </ul>
 
             <div className="home-wrapper">
+                <motion.img
+                    src={profileImg}
+                    alt="Profile"
+                    className="profile-img"
+                    initial={{ opacity: 0, x: 60 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8, delay: 0.5 }}
+                />
                 <div className="home-content">
                     <motion.h1
                         className="hero-text"
@@ -126,23 +134,12 @@ const Home = () => {
                             </a>
                         </div>
                     </motion.div>
-
-
                      {/*Scroll Down Indicator */}
                     <div className="scroll-down">
                         <ArrowDownToLine size={24} />
                         <span>Scroll Down</span>
                     </div>
                 </div>
-
-                <motion.img
-                    src={profileImg}
-                    alt="Profile"
-                    className="profile-img"
-                    initial={{ opacity: 0, x: 60 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, delay: 0.5 }}
-                />
             </div>
         </section>
     );
