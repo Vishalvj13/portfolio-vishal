@@ -1,5 +1,3 @@
-/* Home.css */
-
 .home {
     display: flex;
     align-items: center;
@@ -47,7 +45,11 @@
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
+<<<<<<< HEAD
     border: 5px solid #ffffff;
+=======
+    border: 5px solid ##ffffff;
+>>>>>>> cd145f4b0c130ac1e77ac80ff56b3b2965e147e4
     animation: fadeInRight 1s ease-in-out forwards;
     opacity: 0;
     transform: translateX(50px);
