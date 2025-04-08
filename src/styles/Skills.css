@@ -1,0 +1,118 @@
+.skills-section {
+    padding: 5rem 2rem;
+    background-color: #f3f6fd;
+    text-align: center;
+}
+
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 21rem;
+    padding-right: 21rem;
+    /* 🔥 remove horizontal padding */
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-container {
+        padding: 2rem 1rem;
+    }
+}
+
+.skills-title {
+    font-size: 2.5rem;
+    color: #1f2937;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.skills-subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-bottom: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.skill-category {
+    margin-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #e8edf7;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+.skill-category-title {
+    font-size: 1.75rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #111827;
+    border-bottom: 2px solid #a0aec0;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 1.25rem;
+    border-radius: 2rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+.skill-item:hover {
+    transform: scale(1.08) rotate(-1deg);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.75rem;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover .skill-icon {
+    transform: scale(1.15) rotate(3deg);
+}
+
+.skill-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #374151;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.skill-item:hover .skill-label {
+    color: #1f2937;
+}
+.title-underline {
+    width: 500px;
+    height: 4px;
+    background: linear-gradient(90deg, #6366f1, #3b82f6); /* Indigo to Blue */
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
