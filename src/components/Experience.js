@@ -12,10 +12,10 @@ const experienceData = [
         date: 'Jan 2024 - Present',
         client: 'Client: Telkom South Africa & 3UK',
         responsibilities: [
-            'PMX Upgrade: Executed the PMX upgrade for AMSS (Amdocs Multi Self Service Channel), enhancing integration with CES and third-party applications, reducing deployment issues by 40%',
-            'Customer Relationship Management (CRM) Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, including portals and advanced reporting, to align with client-specific organizational workflows, enhancing process efficiency by 30% and improving user adoption by 25%.',
-            'Identified and resolved 100+ security vulnerabilities using Checkmarx, addressing critical issues like XSS and cleartext password exposure.',
-            'Refactored database queries and added caching mechanisms to reduce latency by 20% during peak traffic.',
+            'PMX Upgrade: Executed the PMX upgrade for AMSS (Amdocs Multi Self Service Channel), enhancing integration with CES and third-party applications, reducing deployment issues up to 25%.',
+            'Security Enhancements: Resolved 100+ security vulnerabilities in Checkmarx, mitigating critical threats such as XSS, Cleartext Password Exposure, and other high-risk vulnerabilities, strengthening customer data security,
+            'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, to align with client-specific organizational workflows, enhancing process efficiency by 15% and improving user adoption by 15%.',
+            'Seamless Data Flow: Collaborated with OMS, ABP (Billing), and DEX (Digital) applications to maintain seamless data flow and achieve zero API failures',
             'Designed and deployed scalable microservices architecture using Java and Spring Boot, improving system performance. Developed & maintained high-performance RESTful APIs for Customer, Order, and Billing Management modules'        ],
     },
     {
@@ -25,7 +25,7 @@ const experienceData = [
         date: 'May 2022 - Dec 2023',
         client: 'Client: 3UK',
         responsibilities: [
-            'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems to align with client-specific organizational workflows, enhancing process efficiency by 30% and improving user adoption by 25%.',
+            'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, to align with client-specific organizational workflows, enhancing process efficiency by 15% and improving user adoption by 15%.',
             'Seamless Data Flow: Collaborated with OMS, ABP (Billing), and DEX (Digital) applications to maintain seamless data flow and achieve zero API failures.',
             'Improved performance and scalability of core telecom services, ensuring consistent and reliable service delivery.',
             'Collaborated in Agile Scrum teams with QA, DevOps, and Infra, contributing to sprint planning, reviews, and retrospectives.',
