@@ -13,7 +13,7 @@ const experienceData = [
         client: 'Client: Telkom South Africa & 3UK',
         responsibilities: [
             'PMX Upgrade: Executed the PMX upgrade for AMSS (Amdocs Multi Self Service Channel), enhancing integration with CES and third-party applications, reducing deployment issues up to 25%.',
-            'Security Enhancements: Resolved 100+ security vulnerabilities in Checkmarx, mitigating critical threats such as XSS, Cleartext Password Exposure, and other high-risk vulnerabilities, strengthening customer data security,
+            'Security Enhancements: Resolved 100+ security vulnerabilities in Checkmarx, mitigating critical threats such as XSS, Cleartext Password Exposure, and other high-risk vulnerabilities, strengthening customer data security',
             'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, to align with client-specific organizational workflows, enhancing process efficiency by 15% and improving user adoption by 15%.',
             'Seamless Data Flow: Collaborated with OMS, ABP (Billing), and DEX (Digital) applications to maintain seamless data flow and achieve zero API failures',
             'Designed and deployed scalable microservices architecture using Java and Spring Boot, improving system performance. Developed & maintained high-performance RESTful APIs for Customer, Order, and Billing Management modules'        ],
