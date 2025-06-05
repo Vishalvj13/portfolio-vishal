@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import profileImg from '../assets/photo1.png';
+import profileImg1 from '../assets/photo_primary.png';
 import Navbar from './Navbar';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
@@ -28,7 +29,7 @@ const Home = () => {
 
             <div className="home-wrapper">
                 <motion.img
-                    src={profileImg}
+                    src={profileImg1}
                     alt="Profile"
                     className="profile-img"
                     initial={{ opacity: 0, x: 60 }}
