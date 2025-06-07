@@ -25,7 +25,7 @@ const educationData = [
     {
         degree: 'HSC',
         fullDegree: 'Higher Secondary Certificate',
-        institution: 'Maharashtra State Board of Secondary and Higher Secondary Education',
+        institution: 'Janata College, Chandrapur (MSBHSE)',
         year: '2014 - 2015',
         grade: 'Percentage: 76.31%',
         icon: <FaSchool style={{ color: '#112D4E', fontSize: '4rem' }} />,
@@ -33,7 +33,7 @@ const educationData = [
     {
         degree: 'SSC',
         fullDegree: 'Secondary School Certificate',
-        institution: 'Maharashtra State Board of Secondary and Higher Secondary Education',
+        institution: 'Lokmanya Tilak Vidyalaya, Chandrapur (MSBHSE)',
         year: '2013 - 2014',
         grade: 'Percentage: 84.6%',
         icon: <PiStudent style={{ color: '#3F3D56', fontSize: '4rem' }} />,
