@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import profileImg from '../assets/photo1.png';
-import profileImg1 from '../assets/photo_primary.png';
+import profileImg1 from '../assets/photo_primary2.png';
 import Navbar from './Navbar';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
