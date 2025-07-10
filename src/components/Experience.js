@@ -12,8 +12,8 @@ const experienceData = [
         logo: globalLogicLogo,
         date: 'June 2025 - Present',
         client: '--------------',
-        responsibilities: [--------------------------
-            -------------------],
+        responsibilities: ['--------------------------
+            -------------------'],
     },
     {
         role: 'Software Developer',
