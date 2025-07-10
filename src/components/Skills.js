@@ -3,6 +3,7 @@ import '../styles/Skills.css';
 import { motion } from 'framer-motion';
 import { MdApi } from "react-icons/md";
 import { VscSourceControl } from "react-icons/vsc";
+import { FaProjectDiagram, FaSyncAlt, FaCubesStacked } from 'react-icons/fa';
 import {
     SiApachemaven,
     SiJenkins,
@@ -15,7 +16,7 @@ import {
     SiReact,
     SiGit,
     SiDocker,
-    SiJira, SiPostman, SiMongodb, SiGithub
+    SiJira, SiPostman, SiMongodb, SiGithub, SiJirasoftware
 } from "react-icons/si";
 import {Cpu} from "lucide-react";
 
@@ -24,7 +25,8 @@ const categoryDisplayNames = {
     Frameworks: 'Frameworks & APIs',
     Databases: 'Databases',
     Tools: 'Tools & Platforms',
-    Dev: 'DevOps Tools & Practices',
+    Dev: 'DevOps Tools',
+    Practices: 'Practices',
 };
 
 const skillsData = {
@@ -59,6 +61,12 @@ const skillsData = {
         { name: 'Git', icon:<SiGit size={60} color="#f1502f" /> },
         { name: 'Github', icon: <SiGithub size={60} color="#181717" /> },
         { name: 'Jenkins', icon: <SiJenkins size={60} color="#d33833" /> },
+    ],
+    Practices: [
+        { name: 'OOP', icon: <FaProjectDiagram size={60} color="#8A2BE2" /> },
+        { name: 'SOLID', icon: <FaCubesStacked size={60} color="#4B0082" /> },
+        { name: 'SDLC', icon:<FaSyncAlt size={60} color="#5A7D9A" /> },
+        { name: 'Agile/Scrum', icon: <SiJirasoftware size={60} color="#0052CC" /> },
     ],
 };
 
