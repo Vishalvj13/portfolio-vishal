@@ -1,15 +1,25 @@
 import React from 'react';
 import '../styles/Experience.css';
 import amdocsLogo from '../assets/amdocsLogo.png';
+import globalLogicLogo from '../assets/globalLogicLogo.png'; 
 import { motion } from 'framer-motion';
 import { Briefcase } from 'lucide-react';
 
 const experienceData = [
     {
+        role: 'Software Engineer',
+        company: 'GlobalLogic',
+        logo: globalLogicLogo,
+        date: 'June 2025 - Present',
+        client: '--------------',
+        responsibilities: [--------------------------
+            -------------------],
+    },
+    {
         role: 'Software Developer',
         company: 'Amdocs',
         logo: amdocsLogo,
-        date: 'Jan 2024 - Present',
+        date: 'Jan 2024 - April 2025',
         client: 'Client: Telkom South Africa & 3UK',
         responsibilities: [
             'PMX Upgrade: Executed the PMX upgrade for AMSS (Amdocs Multi Self Service Channel), enhancing integration with CES and third-party applications, reducing deployment issues up to 25%.',
