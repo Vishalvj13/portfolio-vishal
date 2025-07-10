@@ -64,7 +64,7 @@ const skillsData = {
     ],
     Practices: [
         { name: 'OOP', icon: <FaProjectDiagram size={60} color="#8A2BE2" /> },
-        { name: 'SOLID', icon: <FaCubesStacked size={60} color="#4B0082" /> },
+        { name: 'SOLID', icon: <FaCubes size={60} color="#4B0082" /> },
         { name: 'SDLC', icon:<FaSyncAlt size={60} color="#5A7D9A" /> },
         { name: 'Agile/Scrum', icon: <SiJirasoftware size={60} color="#0052CC" /> },
     ],
