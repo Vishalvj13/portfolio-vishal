@@ -53,6 +53,7 @@
     transform: translateX(-50px);
     z-index: 1;
     position: relative;
+    margin-left: -100px;
 }
 
 @keyframes fadeInUp {
@@ -80,6 +81,7 @@
         width: 250px;
         height: 250px;
         margin-top: 2rem;
+        margin-left: 2%;
     }
 }
 /* Navigation Bar */
