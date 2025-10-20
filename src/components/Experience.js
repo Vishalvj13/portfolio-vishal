@@ -11,8 +11,13 @@ const experienceData = [
         company: 'GlobalLogic',
         logo: globalLogicLogo,
         date: 'June 2025 - Present',
-        client: '-----',
-        responsibilities: ['-----'],
+        client: 'Boomi India',
+        responsibilities: [
+            'Cloud Security & Compliance: Managed end-to-end security and governance of AWS cloud infrastructure, ensuring adherence to organizational policies and AWS security best practices for the client environment.',
+            'Threat Analysis & Remediation: Analyzed security findings and threat reports from CrowdStrike, identified misconfigurations and policy violations across AWS services, and implemented preventive measures to strengthen cloud security posture.',
+            'Policy-as-Code Implementation: Designed and deployed custom governance policies using Stacklet (based on Cloud Custodian) to automate compliance enforcement and enhance visibility across AWS accounts.',
+            'Access & Network Security: Reviewed and optimized IAM roles, S3 bucket policies, VPC configurations, and Security Groups to enforce least-privilege access and minimize attack surfaces.',
+            'Audit Readiness & Collaboration: Partnered with internal teams and client stakeholders to ensure continuous compliance, automate security monitoring, and support audit readiness initiatives across AWS environments.'],
     },
     {
         role: 'Software Developer',
@@ -25,7 +30,7 @@ const experienceData = [
             'Security Enhancements: Resolved 100+ security vulnerabilities in Checkmarx, mitigating critical threats such as XSS, Cleartext Password Exposure, and other high-risk vulnerabilities, strengthening customer data security',
             'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, to align with client-specific organizational workflows, enhancing process efficiency by 15% and improving user adoption by 15%.',
             'Seamless Data Flow: Collaborated with OMS, ABP (Billing), and DEX (Digital) applications to maintain seamless data flow and achieve zero API failures',
-            'Designed and deployed scalable microservices architecture using Java and Spring Boot, improving system performance. Developed & maintained high-performance RESTful APIs for Customer, Order, and Billing Management modules'        ],
+            'Designed and deployed scalable microservices architecture using Java and Spring Boot, improving system performance. Developed & maintained high-performance RESTful APIs for Customer, Order, and Billing Management modules'],
     },
     {
         role: 'Associate Software Engineer',
