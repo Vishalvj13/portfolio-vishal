@@ -20,7 +20,8 @@ import {
     SiPostman,
     SiMongodb,
     SiGithub,
-    SiJirasoftware
+    SiJirasoftware,
+    SiBitbucket
 } from "react-icons/si";
 import { Cpu } from "lucide-react";
 
@@ -69,6 +70,7 @@ const skillsData = {
         { name: 'Docker', icon: <SiDocker size={60} color="#0db7ed" /> },
         { name: 'Git', icon: <SiGit size={60} color="#f1502f" /> },
         { name: 'Github', icon: <SiGithub size={60} color="#181717" /> },
+        { name: "Bitbucket", icon: <SiBitbucket size={60} color="#0052CC" /> },
         { name: 'Jenkins', icon: <SiJenkins size={60} color="#d33833" /> },
         { name: 'AWS CLI', icon: <FaTerminal size={60} color="#232F3E" /> },
     ],
