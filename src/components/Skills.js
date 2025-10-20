@@ -3,16 +3,7 @@ import '../styles/Skills.css';
 import { motion } from 'framer-motion';
 import { MdApi } from "react-icons/md";
 import { VscSourceControl } from "react-icons/vsc";
-import {
-    FaProjectDiagram,
-    FaSyncAlt,
-    FaCubes,
-    FaTerminal,
-    FaShieldAlt,
-    FaCode,
-    FaFileCode,
-    FaLock
-} from 'react-icons/fa';
+import { FaProjectDiagram, FaSyncAlt, FaCubes, FaShieldAlt, FaCode, FaFileCode, FaLock, FaShieldVirus, FaTerminal } from 'react-icons/fa';
 import {
     SiApachemaven,
     SiJenkins,
@@ -29,10 +20,7 @@ import {
     SiPostman,
     SiMongodb,
     SiGithub,
-    SiJirasoftware,
-    SiAmazonaws,
-    SiCrowdsource,
-    SiTerraform
+    SiJirasoftware
 } from "react-icons/si";
 import { Cpu } from "lucide-react";
 
@@ -41,8 +29,8 @@ const categoryDisplayNames = {
     Frameworks: 'Frameworks & APIs',
     Databases: 'Databases',
     Tools: 'Tools & Platforms',
-    Dev: 'DevOps & Cloud Tools',
-    CloudSecurity: 'Cloud Security & Governance',
+    Dev: 'DevOps Tools',
+    CloudSecurity: 'Cloud Security & Compliance',
     Practices: 'Practices & Methodologies',
 };
 
@@ -82,20 +70,19 @@ const skillsData = {
         { name: 'Git', icon: <SiGit size={60} color="#f1502f" /> },
         { name: 'Github', icon: <SiGithub size={60} color="#181717" /> },
         { name: 'Jenkins', icon: <SiJenkins size={60} color="#d33833" /> },
-        { name: 'Terraform', icon: <SiTerraform size={60} color="#844FBA" /> },
         { name: 'AWS CLI', icon: <FaTerminal size={60} color="#232F3E" /> },
     ],
 
     CloudSecurity: [
-        { name: 'AWS Security Hub', icon: <SiAmazonaws size={60} color="#FF9900" /> },
-        { name: 'AWS Config', icon: <SiAmazonaws size={60} color="#FF9900" /> },
-        { name: 'AWS CloudTrail', icon: <SiAmazonaws size={60} color="#FF9900" /> },
-        { name: 'IAM', icon: <SiAmazonaws size={60} color="#FF9900" /> },
-        { name: 'VPC & Security Groups', icon: <SiAmazonaws size={60} color="#FF9900" /> },
-        { name: 'S3 Bucket Policies', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'AWS Security Hub', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS Security Hub" style={{ width: 60 }} /> },
+        { name: 'AWS Config', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS Config" style={{ width: 60 }} /> },
+        { name: 'AWS CloudTrail', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS CloudTrail" style={{ width: 60 }} /> },
+        { name: 'IAM', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="IAM" style={{ width: 60 }} /> },
+        { name: 'VPC & Security Groups', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="VPC & Security Groups" style={{ width: 60 }} /> },
+        { name: 'S3 Bucket Policies', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="S3 Bucket Policies" style={{ width: 60 }} /> },
         { name: 'Stacklet', icon: <FaShieldAlt size={60} color="#0E7490" /> },
         { name: 'Cloud Custodian', icon: <FaCode size={60} color="#2563EB" /> },
-        { name: 'CrowdStrike', icon: <SiCrowdsource size={60} color="#D71920" /> },
+        { name: 'CrowdStrike', icon: <FaShieldVirus size={60} color="#D71920" /> },
     ],
 
     Practices: [
