@@ -7,7 +7,7 @@ import { Briefcase } from 'lucide-react';
 
 const experienceData = [
     {
-        role: 'Software Engineer',
+        role: 'Software Engineer - 2',
         company: 'GlobalLogic',
         logo: globalLogicLogo,
         date: 'June 2025 - Present',
