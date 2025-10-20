@@ -3,7 +3,16 @@ import '../styles/Skills.css';
 import { motion } from 'framer-motion';
 import { MdApi } from "react-icons/md";
 import { VscSourceControl } from "react-icons/vsc";
-import { FaProjectDiagram, FaSyncAlt, FaCubes } from 'react-icons/fa';
+import {
+    FaProjectDiagram,
+    FaSyncAlt,
+    FaCubes,
+    FaTerminal,
+    FaShieldAlt,
+    FaCode,
+    FaFileCode,
+    FaLock
+} from 'react-icons/fa';
 import {
     SiApachemaven,
     SiJenkins,
@@ -16,17 +25,25 @@ import {
     SiReact,
     SiGit,
     SiDocker,
-    SiJira, SiPostman, SiMongodb, SiGithub, SiJirasoftware
+    SiJira,
+    SiPostman,
+    SiMongodb,
+    SiGithub,
+    SiJirasoftware,
+    SiAmazonaws,
+    SiCrowdsource,
+    SiTerraform
 } from "react-icons/si";
-import {Cpu} from "lucide-react";
+import { Cpu } from "lucide-react";
 
 const categoryDisplayNames = {
     Languages: 'Programming Languages & Libraries',
     Frameworks: 'Frameworks & APIs',
     Databases: 'Databases',
     Tools: 'Tools & Platforms',
-    Dev: 'DevOps Tools',
-    Practices: 'Practices',
+    Dev: 'DevOps & Cloud Tools',
+    CloudSecurity: 'Cloud Security & Governance',
+    Practices: 'Practices & Methodologies',
 };
 
 const skillsData = {
@@ -37,10 +54,12 @@ const skillsData = {
         { name: 'JavaScript', icon: <SiJavascript size={60} color="#f7df1e" /> },
         { name: 'ReactJS', icon: <SiReact size={60} color="#61DBFB" /> },
     ],
+
     Databases: [
         { name: 'MySQL', icon: <SiMysql size={60} color="#00758f" /> },
-        { name: 'NoSQL', icon: <SiMongodb size={60} color="#47A248" /> },
+        { name: 'NoSQL (MongoDB)', icon: <SiMongodb size={60} color="#47A248" /> },
     ],
+
     Frameworks: [
         { name: 'Spring Boot', icon: <SiSpringboot size={60} color="#6db33f" /> },
         { name: 'Spring Framework', icon: <SiSpring size={60} color="#6db33f" /> },
@@ -49,24 +68,43 @@ const skillsData = {
         { name: 'RESTful APIs', icon: <MdApi size={60} color="#4B5563" /> },
         { name: 'SOAP', icon: <MdApi size={60} color="#0078D4" /> },
     ],
+
     Tools: [
         { name: 'Maven', icon: <SiApachemaven size={60} color="#C71A36" /> },
         { name: 'Jira', icon: <SiJira size={60} color="#0052CC" /> },
         { name: 'Perforce', icon: <VscSourceControl size={60} color="#005CAB" /> },
         { name: 'Postman', icon: <SiPostman size={60} color="#FF6C37" /> },
     ],
+
     Dev: [
         { name: 'AWS', icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" style={{ width: 60 }} /> },
         { name: 'Docker', icon: <SiDocker size={60} color="#0db7ed" /> },
-        { name: 'Git', icon:<SiGit size={60} color="#f1502f" /> },
+        { name: 'Git', icon: <SiGit size={60} color="#f1502f" /> },
         { name: 'Github', icon: <SiGithub size={60} color="#181717" /> },
         { name: 'Jenkins', icon: <SiJenkins size={60} color="#d33833" /> },
+        { name: 'Terraform', icon: <SiTerraform size={60} color="#844FBA" /> },
+        { name: 'AWS CLI', icon: <FaTerminal size={60} color="#232F3E" /> },
     ],
+
+    CloudSecurity: [
+        { name: 'AWS Security Hub', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'AWS Config', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'AWS CloudTrail', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'IAM', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'VPC & Security Groups', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'S3 Bucket Policies', icon: <SiAmazonaws size={60} color="#FF9900" /> },
+        { name: 'Stacklet', icon: <FaShieldAlt size={60} color="#0E7490" /> },
+        { name: 'Cloud Custodian', icon: <FaCode size={60} color="#2563EB" /> },
+        { name: 'CrowdStrike', icon: <SiCrowdsource size={60} color="#D71920" /> },
+    ],
+
     Practices: [
         { name: 'OOP', icon: <FaProjectDiagram size={60} color="#8A2BE2" /> },
         { name: 'SOLID', icon: <FaCubes size={60} color="#4B0082" /> },
-        { name: 'SDLC', icon:<FaSyncAlt size={60} color="#5A7D9A" /> },
+        { name: 'SDLC', icon: <FaSyncAlt size={60} color="#5A7D9A" /> },
         { name: 'Agile/Scrum', icon: <SiJirasoftware size={60} color="#0052CC" /> },
+        { name: 'Policy-as-Code', icon: <FaFileCode size={60} color="#2B6CB0" /> },
+        { name: 'Cloud Compliance', icon: <FaLock size={60} color="#0EA5E9" /> },
     ],
 };
 
@@ -76,7 +114,6 @@ const getDynamicHorizontalPadding = (skillCount) => {
     if (skillCount <= 8) return 32; // 2rem
     return 16; // 1rem
 };
-
 
 const Skills = () => {
     return (
@@ -93,7 +130,7 @@ const Skills = () => {
                     Skills
                 </h2>
                 <div className="title-underline"></div>
-                <br/><br/>
+                <br /><br />
 
                 {Object.keys(skillsData).map((category) => {
                     const skillCount = skillsData[category].length;
@@ -117,8 +154,6 @@ const Skills = () => {
                         </div>
                     );
                 })}
-
-
             </motion.div>
         </section>
     );
