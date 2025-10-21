@@ -11,7 +11,7 @@ const experienceData = [
         company: 'GlobalLogic',
         logo: globalLogicLogo,
         date: 'June 2025 - Present',
-        client: 'Boomi India',
+        client: 'Client: Leading iPaaS Provider',
         responsibilities: [
             'Cloud Security & Governance: Managed enterprise-wide AWS cloud security and governance, ensuring 100% compliance with organizational policies, industry standards, and AWS best practices.',
             'Threat Analysis & Risk Reduction: Analyzed CrowdStrike threat reports and AWS Config findings to identify misconfigurations, policy violations, and systemic risks — implementing preventive measures that reduced overall exposure.',
@@ -26,7 +26,7 @@ const experienceData = [
         company: 'Amdocs',
         logo: amdocsLogo,
         date: 'Jan 2024 - April 2025',
-        client: 'Client: Telkom South Africa & 3UK',
+        client: 'Client: Major telecom clients in UK and SA',
         responsibilities: [
             'PMX Upgrade: Executed the PMX upgrade for AMSS (Amdocs Multi Self Service Channel), enhancing integration with CES and third-party applications, reducing deployment issues up to 25%.',
             'Security Enhancements: Resolved 100+ security vulnerabilities in Checkmarx, mitigating critical threats such as XSS, Cleartext Password Exposure, and other high-risk vulnerabilities, strengthening customer data security',
@@ -39,7 +39,7 @@ const experienceData = [
         company: 'Amdocs',
         logo: amdocsLogo,
         date: 'May 2022 - Dec 2023',
-        client: 'Client: 3UK',
+        client: 'Client: Major telecom client in UK',
         responsibilities: [
             'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, to align with client-specific organizational workflows, enhancing process efficiency by 15% and improving user adoption by 15%.',
             'Seamless Data Flow: Collaborated with OMS, ABP (Billing), and DEX (Digital) applications to maintain seamless data flow and achieve zero API failures.',
