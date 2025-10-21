@@ -13,11 +13,13 @@ const experienceData = [
         date: 'June 2025 - Present',
         client: 'Boomi India',
         responsibilities: [
-            'Cloud Security & Compliance: Managed end-to-end security and governance of AWS cloud infrastructure, ensuring adherence to organizational policies and AWS security best practices for the client environment.',
-            'Threat Analysis & Remediation: Analyzed security findings and threat reports from CrowdStrike, identified misconfigurations and policy violations across AWS services, and implemented preventive measures to strengthen cloud security posture.',
-            'Policy-as-Code Implementation: Designed and deployed custom governance policies using Stacklet (based on Cloud Custodian) to automate compliance enforcement and enhance visibility across AWS accounts.',
-            'Access & Network Security: Reviewed and optimized IAM roles, S3 bucket policies, VPC configurations, and Security Groups to enforce least-privilege access and minimize attack surfaces.',
-            'Audit Readiness & Collaboration: Partnered with internal teams and client stakeholders to ensure continuous compliance, automate security monitoring, and support audit readiness initiatives across AWS environments.'],
+            'Cloud Security & Governance: Managed enterprise-wide AWS cloud security and governance, ensuring 100% compliance with organizational policies, industry standards, and AWS best practices.',
+            'Threat Analysis & Risk Reduction: Analyzed CrowdStrike threat reports and AWS Config findings to identify misconfigurations, policy violations, and systemic risks — implementing preventive measures that reduced overall exposure.',
+            'Policy-as-Code Automation: Designed and deployed governance policies using Stacklet (Cloud Custodian) to automate compliance, enforce security standards, and enhance visibility across AWS accounts.',
+            'Remediation Automation: Architected automated remediation modules for the enterprise CSPM toolkit, including a high-performance validation engine that reduced API calls by 95% through resource grouping optimization.',
+            'CI/CD Security Integration: Integrated policy enforcement and remediation workflows into Harness CI/CD pipelines, enabling fully automated, auditable deployments with JIRA reporting and error handling.',
+            'Access & Network Security: Reviewed and optimized IAM roles, VPCs, Security Groups, and S3 policies to enforce least-privilege principles and minimize attack surfaces.',
+            'Audit Readiness & Collaboration: Partnered with cloud governance, DevOps, and security teams to drive continuous compliance, automate monitoring, and support audit readiness initiatives across AWS environments.'],
     },
     {
         role: 'Software Developer',
