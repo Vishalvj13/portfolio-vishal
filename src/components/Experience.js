@@ -14,10 +14,10 @@ const experienceData = [
         client: 'Client: Leading iPaaS Provider',
         responsibilities: [
             'Cloud Security & Governance: Managed enterprise-wide AWS cloud security and governance, ensuring 100% compliance with organizational policies, industry standards, and AWS best practices.',
-            'Threat Analysis & Risk Reduction: Analyzed CrowdStrike threat reports and AWS Config findings to identify misconfigurations, policy violations, and systemic risks — implementing preventive measures that reduced overall exposure.',
-            'Policy-as-Code Automation: Designed and deployed governance policies using Stacklet (Cloud Custodian) to automate compliance, enforce security standards, and enhance visibility across AWS accounts.',
+            'Threat Analysis & Risk Reduction: Analyzed enterprise EDR systems threat reports and AWS Config findings to identify misconfigurations, policy violations, and systemic risks — implementing preventive measures that reduced overall exposure.',
+            'Policy-as-Code Automation: Designed and deployed governance policies to automate compliance, enforce security standards, and enhance visibility across AWS accounts.',
             'Remediation Automation: Architected automated remediation modules for the enterprise CSPM toolkit, including a high-performance validation engine that reduced API calls by 95% through resource grouping optimization.',
-            'CI/CD Security Integration: Integrated policy enforcement and remediation workflows into Harness CI/CD pipelines, enabling fully automated, auditable deployments with JIRA reporting and error handling.',
+            'CI/CD Security Integration: Integrated policy enforcement and remediation workflows into CI/CD pipelines, enabling fully automated, auditable deployments with JIRA reporting and error handling.',
             'Access & Network Security: Reviewed and optimized IAM roles, VPCs, Security Groups, and S3 policies to enforce least-privilege principles and minimize attack surfaces.',
             'Audit Readiness & Collaboration: Partnered with cloud governance, DevOps, and security teams to drive continuous compliance, automate monitoring, and support audit readiness initiatives across AWS environments.'],
     },
@@ -28,7 +28,7 @@ const experienceData = [
         date: 'Jan 2024 - April 2025',
         client: 'Client: Major telecom clients in UK and SA',
         responsibilities: [
-            'PMX Upgrade: Executed the PMX upgrade for AMSS (Amdocs Multi Self Service Channel), enhancing integration with CES and third-party applications, reducing deployment issues up to 25%.',
+            'PMX Upgrade: Executed the PMX upgrade for AMSS application, enhancing integration with CES and third-party applications, reducing deployment issues up to 25%.',
             'Security Enhancements: Resolved 100+ security vulnerabilities in Checkmarx, mitigating critical threats such as XSS, Cleartext Password Exposure, and other high-risk vulnerabilities, strengthening customer data security',
             'CRM Optimization & Enterprise Solutions: Developed and implemented customized CRM systems, to align with client-specific organizational workflows, enhancing process efficiency by 15% and improving user adoption by 15%.',
             'Seamless Data Flow: Collaborated with OMS, ABP (Billing), and DEX (Digital) applications to maintain seamless data flow and achieve zero API failures',
