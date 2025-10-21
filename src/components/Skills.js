@@ -31,7 +31,6 @@ const categoryDisplayNames = {
     Databases: 'Databases',
     Tools: 'Tools & Platforms',
     Dev: 'DevOps Tools',
-    CloudSecurity: 'Cloud Security & Compliance',
     Practices: 'Practices & Methodologies',
 };
 
@@ -75,12 +74,6 @@ const skillsData = {
         { name: 'Harness CI/CD', icon: <FaCogs size={60} color="#22D3EE" /> },
         { name: 'Remediation Engine', icon: <FaTools size={60} color="#0EA5E9" /> },
         { name: 'AWS CLI', icon: <FaTerminal size={60} color="#232F3E" /> },
-    ],
-
-    CloudSecurity: [
-        { name: 'Stacklet', icon: <FaShieldAlt size={60} color="#0E7490" /> },
-        { name: 'Cloud Custodian', icon: <FaCode size={60} color="#2563EB" /> },
-        { name: 'CrowdStrike', icon: <FaShieldVirus size={60} color="#D71920" /> },
     ],
 
     Practices: [
