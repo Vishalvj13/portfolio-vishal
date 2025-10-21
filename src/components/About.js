@@ -24,17 +24,19 @@ const About = () => {
                 >
                     {/* About Text */}
                      <p className="about-text">
-                        Hey there! 👋 I'm <strong>Vishal Junghare</strong>, a <strong>Java Backend Developer & AWS Security Engineer</strong> with <strong>3+ years of experience</strong> building clean, scalable, and secure cloud applications using <strong><em>Java</em></strong>, <strong><em>Spring Boot</em></strong>, and <strong><em>REST APIs</em></strong>.
+                        Hey there! 👋 I'm <strong>Vishal Junghare</strong>, a <strong>Java Backend Developer & AWS Security Engineer</strong> with <strong>3+ years of experience</strong> building clean, scalable, and secure cloud applications.
                         <br />
-                        I specialize in crafting efficient <strong><em>Microservices</em></strong> and ensuring <strong><em>cloud environments</em></strong> stay compliant and secure on <strong><em>AWS</em></strong>. From analyzing <strong><em>CrowdStrike</em></strong> threat reports to writing <strong><em>Policy-as-Code</em></strong> with <strong><em>Stacklet</em></strong> (based on Cloud Custodian 💫), I love solving complex security and architecture challenges that make systems both smarter and safer.
+                        I specialize in crafting efficient <strong><em>Microservices</em></strong> with <strong><em>Java</em></strong>, <strong><em>Spring Boot</em></strong>, and <strong><em>REST APIs</em></strong>, while designing automated <strong><em>Cloud Security</em></strong> and <strong><em>Governance</em></strong> solutions on <strong><em>AWS</em></strong>.
                         <br /><br />
-                        From <strong><em>Maven</em></strong> to <strong><em>Docker</em></strong>, <strong><em>Git</em></strong> to <strong><em>Jenkins</em></strong>, and a healthy dose of <strong><em>AWS magic</em></strong> (think <strong><em>IAM</em></strong>, <strong><em>VPCs</em></strong>, and <strong><em>Governance Policies</em></strong>) — these are my daily tools of the trade. Writing clean, maintainable, and secure code is my craft. Bonus points if it works on the first try (it usually doesn’t, but I act surprised 😄).
+                        My work revolves around securing enterprise cloud environments — from analyzing <strong><em>CrowdStrike</em></strong> threat reports and <strong><em>AWS Config</em></strong> findings to building <strong><em>Policy-as-Code</em></strong> frameworks with <strong><em>Stacklet</em></strong> (Cloud Custodian 💫). I love architecting remediation engines, automating compliance in <strong><em>Harness CI/CD</em></strong> pipelines, and making the cloud a safer, smarter place.
                         <br /><br />
-                        <strong>Outside work</strong>, I'm a <strong>Cricket Enthusiast 🏏</strong> who loves smashing sixes, a <strong>Wanderluster 🌍</strong> exploring new destinations, and a <strong>Foodie 🍕</strong> on the hunt for the next great bite.
+                        From <strong><em>Maven</em></strong> to <strong><em>Docker</em></strong>, <strong><em>Git</em></strong> to <strong><em>Jenkins</em></strong>, and a sprinkle of <strong><em>AWS magic</em></strong> (think <strong><em>IAM</em></strong>, <strong><em>CloudTrail</em></strong>, and <strong><em>Governance Policies</em></strong>) — these are my daily tools of the trade. Writing clean, maintainable, and secure code is my craft. Bonus points if it works on the first try (it usually doesn’t, but I act surprised 😄).
+                        <br /><br />
+                        <strong>Outside work</strong>, I’m a <strong>Cricket Enthusiast 🏏</strong>, <strong>Wanderluster 🌍</strong>, and <strong>Foodie 🍕</strong> on a quest for the perfect bite.
                         <br />
-                        Give me <strong>spontaneous road trips 🛣️</strong>, <strong>binge-worthy TV shows 📺</strong>, and an endless supply of <strong>chai ☕️</strong>, and you’ve got the perfect blend of <strong>code</strong>, <strong>cloud</strong>, and <strong>chaos</strong>.
+                        Give me <strong>spontaneous road trips 🛣️</strong>, <strong>binge-worthy TV shows 📺</strong>, and a never-ending stream of <strong>chai ☕️</strong> — and you’ve got the perfect mix of <strong>code</strong>, <strong>cloud</strong>, and <strong>chaos</strong>.
                         <br />
-                        <strong>Fun fact:</strong> I have more browser tabs open than AWS regions 🤫.
+                        <strong>Fun fact:</strong> I have more <strong>browser tabs</strong> open than <strong>AWS regions</strong> 🤫.
                     </p>
 
                     {/* My Coding Mantra Terminal Box */}
