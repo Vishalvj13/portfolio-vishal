@@ -11,7 +11,7 @@ import awsSAA from '../assets/aws-saa.png';
 import awsDVA from '../assets/aws-dva.png';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {FaInstagram} from "react-icons/fa6";
-import {SiCredly} from "react-icons/si";
+import {SiCredly, SiMedium} from "react-icons/si";
 
 const Home = () => {
     return (
@@ -132,6 +132,14 @@ const Home = () => {
                                 rel="noopener noreferrer"
                             >
                                 <SiCredly style={{ color: '#EA552A' }}/>
+                            </a>
+                            <a
+                                href="https://medium.com/@vishal_13_"
+                                className="social-icon"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <SiMedium style={{ color: '#000000' }} />
                             </a>
                         </div>
                     </motion.div>
