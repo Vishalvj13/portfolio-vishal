@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 import { motion } from 'framer-motion';
 import { MdApi } from "react-icons/md";
 import { VscSourceControl } from "react-icons/vsc";
-import { FaProjectDiagram, FaSyncAlt, FaCubes, FaShieldAlt, FaCode, FaFileCode, FaLock, FaShieldVirus, FaTerminal } from 'react-icons/fa';
+import { FaProjectDiagram, FaSyncAlt, FaCubes, FaShieldAlt, FaCode, FaFileCode, FaLock, FaShieldVirus, FaTerminal, FaCogs, FaTools } from 'react-icons/fa';
 import {
     SiApachemaven,
     SiJenkins,
@@ -72,6 +72,8 @@ const skillsData = {
         { name: 'Github', icon: <SiGithub size={60} color="#181717" /> },
         { name: "Bitbucket", icon: <SiBitbucket size={60} color="#0052CC" /> },
         { name: 'Jenkins', icon: <SiJenkins size={60} color="#d33833" /> },
+        { name: 'Harness CI/CD', icon: <FaCogs size={60} color="#22D3EE" /> },
+        { name: 'Remediation Engine', icon: <FaTools size={60} color="#0EA5E9" /> },
         { name: 'AWS CLI', icon: <FaTerminal size={60} color="#232F3E" /> },
     ],
 
