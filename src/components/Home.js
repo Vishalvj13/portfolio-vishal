@@ -9,6 +9,7 @@ import { Download, ArrowDownToLine } from 'lucide-react';
 import awsPractitioner from '../assets/aws-practitioner.png';
 import awsSAA from '../assets/aws-saa.png';
 import awsDVA from '../assets/aws-dva.png';
+import githubFoundation from '../assets/githubFoundation.png';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {FaInstagram} from "react-icons/fa6";
 import {SiCredly, SiMedium} from "react-icons/si";
@@ -82,6 +83,9 @@ const Home = () => {
                         </a>
                         <a href="https://www.credly.com/badges/3d8c0290-02a1-4998-b922-5c0b74e1b819/public_url" target="_blank" rel="noopener noreferrer">
                             <img src={awsDVA} alt="AWS Developer Associate" />
+                        </a>
+                        <a href="https://learn.microsoft.com/en-us/users/vishaljunghare-5555/credentials/e69e282efd095b2a?ref=https%3A%2F%2Fwww.credly.com%2F" target="_blank" rel="noopener noreferrer">
+                            <img src={githubFoundation} alt="Github Foundations" className="github-badge"/>
                         </a>
                     </div>
 
