@@ -379,6 +379,19 @@
     transform: scale(1.1);
 }
 
+/* github */
+.github-badge {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.github-badge:hover {
+    transform: scale(1.1);
+}
+
 /* Social Icons */
 .social-icons {
     display: flex;
