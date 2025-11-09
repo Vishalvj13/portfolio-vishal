@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 import { motion } from 'framer-motion';
 import { MdApi } from "react-icons/md";
 import { VscSourceControl } from "react-icons/vsc";
-import { FaProjectDiagram, FaSyncAlt, FaCubes, FaShieldAlt, FaCode, FaFileCode, FaLock, FaShieldVirus, FaTerminal, FaCogs, FaTools } from 'react-icons/fa';
+import { FaProjectDiagram, FaSyncAlt, FaCubes, FaFileCode, FaLock, FaTerminal, FaCogs, FaTools } from 'react-icons/fa';
 import {
     SiApachemaven,
     SiJenkins,
