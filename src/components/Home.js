@@ -83,6 +83,10 @@ const Home = () => {
                         <a href="https://www.credly.com/badges/3d8c0290-02a1-4998-b922-5c0b74e1b819/public_url" target="_blank" rel="noopener noreferrer">
                             <img src={awsDVA} alt="AWS Developer Associate" />
                         </a>
+                        <img 
+                            src={isc2CC}
+                            alt="ISC² Certified in Cybersecurity (CC)"
+                         />
                         <a href="https://learn.microsoft.com/en-us/users/vishaljunghare-5555/credentials/e69e282efd095b2a?ref=https%3A%2F%2Fwww.credly.com%2F" target="_blank" rel="noopener noreferrer">
                             <img src={githubFoundation} alt="Github Foundations" className="github-badge"/>
                         </a>
