@@ -8,6 +8,7 @@ import { Download, ArrowDownToLine } from 'lucide-react';
 import awsPractitioner from '../assets/aws-practitioner.png';
 import awsSAA from '../assets/aws-saa.png';
 import awsDVA from '../assets/aws-dva.png';
+import isc2CC from '../assets/isc2CC.png';
 import githubFoundation from '../assets/githubFoundation.png';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {FaInstagram} from "react-icons/fa6";
